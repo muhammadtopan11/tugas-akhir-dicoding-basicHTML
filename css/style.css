@@ -17,12 +17,15 @@ body main {
 
 body main div.content{
     flex-basis: 50%;
-    padding: 20px 150px;
+    margin: auto;
 }
 
 body main div.content img{
-    height: 400px;
+    height: auto;
+    max-width: 100% ;
+    padding-top: 25px;
 }
+
 
 body main div.content article p{
     font-size: small;
@@ -54,7 +57,6 @@ body main div.content article ul li{
 body main aside{
     background-color: bisque;
     width: 50%;
-    height: 600px;
     padding: 10px 20px;
     flex-basis: 20%;
 }
