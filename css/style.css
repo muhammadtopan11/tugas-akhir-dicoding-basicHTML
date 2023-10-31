@@ -54,6 +54,7 @@ body main div.content article ul li{
 body main aside{
     background-color: bisque;
     width: 50%;
+    height: 600px;
     padding: 10px 20px;
     flex-basis: 20%;
 }
@@ -88,4 +89,23 @@ body main aside div.aside-logo{
 
 body footer{
     background-color: blueviolet;
+    text-align: center;
+    padding: 20px 0;
 }
+
+body footer div.footer p{
+    font-size: smaller;
+}
+
+body footer div.footer div{
+    display: flex;
+    justify-content: center;
+}
+
+body footer div.footer div.tect div{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 999px;
+}
+    
