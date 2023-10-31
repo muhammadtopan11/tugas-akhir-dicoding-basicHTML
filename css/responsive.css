@@ -1,0 +1,16 @@
+@media only screen and (max-width:658px){
+    header div.navbar{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    body header div.navbar div.navbar-img img:hover{
+        height: 200px;
+        
+    }
+
+    body header div.navbar div.navbar-list ul{
+        margin: auto;
+        padding-bottom: 30px;
+    }
+}
